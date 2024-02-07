@@ -1,0 +1,198 @@
+
+body{
+    background-color: #EDEFEE;
+    font-family: 'Markazi Text',serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    cursor: -moz-zoom-in;
+}
+a:link{
+    color: white;
+}
+a:visited{
+    color: aqua;
+}
+a:hover{
+    color: aqua;
+}
+h1{
+    font-size: 2rem;
+    color: #f51313;
+    text-decoration: none;
+}
+
+h2{
+    font-size: 2rem;
+    float: left;
+    color: white;
+}
+p{
+    font-size: medium;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+    float: left;
+    
+}
+
+
+
+header > img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    text-size-adjust: 1% ;
+    background-color: rgb(33, 33, 34);
+    height: 40px;
+    gap: 100px;
+    padding-left: 15em;
+    border-radius: 10px;
+    
+}
+
+nav li{
+    margin-top: 10px;
+    padding-top: 2px;
+    padding-left: 50px;
+    font-weight: bold;
+    font-size: large;
+}
+nav li:link{
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+@keyframes enlarge{
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.2);
+    }
+}
+nav li:hover{
+    animation: enlarge 0.3s forwards;
+}
+nav a{
+    color: rgb(253, 252, 253);
+    text-decoration: none;    
+}
+nav a:hover{
+    color: aqua;
+}
+.bg{
+    background-image: url("Foody.jpeg");
+    width:fit-content;
+    height: 15  0px;
+    color: #EDEFEE;
+    float: left;
+}
+
+section{
+    display: flex;
+}
+article{
+    flex: 1;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.menu{
+    background-color:black;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 50px;
+    flex:1,1,auto;
+    height: 80vh;
+    margin-right: 50px;
+    padding-right: 20px;
+}
+.menu > p{
+    float:left;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu  a{
+    align-self: center;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.book{
+    background-color: red;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex: 1,1,auto;
+    height: 80vh;
+    padding-left: 50px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.book > p{
+    float:left;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.book a{
+    align-self: center;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
+.book a:hover{
+    color: black;
+}
+.open{
+    background-color: black;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex: 1,1,auto;
+    height: 80vh;
+    margin-left: 50px;
+    padding-left: 50px;
+    margin-right: auto;
+    padding-right: 20px;
+}
+.open>p{
+    float:left;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+footer{
+    display: flex;
+    margin-top: 50px;
+    background-color: rgb(5, 5, 5);
+    padding-left: 5em;
+}
+.foot{
+    padding-left: 200px;
+    float:right;
+}
+.foot > p{
+    color: white;
+    float: right;
+    padding-right: 30px;
+}
+    
+footer div{
+    flex:1;
+}
+
+
+
